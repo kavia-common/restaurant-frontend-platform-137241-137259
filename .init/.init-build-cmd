@@ -1,0 +1,4 @@
+{
+    "command": "flutter build apk --release --target-platform android-x64",
+    "working_directory": "/home/kavia/workspace/code-generation/restaurant-frontend-platform-137241-137259/restaurant_frontend_flutter"
+}

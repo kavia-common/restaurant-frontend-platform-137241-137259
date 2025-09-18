@@ -1,16 +1,27 @@
 # restaurant_frontend_flutter
 
-A new Flutter project.
+Ocean Professional themed Flutter app for a restaurant, supporting:
+- Interactive menu with categories
+- Cart and order checkout (modal)
+- Reservations (modal) and a reservation list
+- Navigation drawer and responsive UI
 
-## Getting Started
+Tech:
+- Flutter (Material 3), Provider for state
+- Mock data (no backend)
 
-This project is a starting point for a Flutter application.
+Run:
+- flutter pub get
+- flutter run -d chrome (web) or a mobile device
 
-A few resources to get you started if this is your first Flutter project:
+Structure:
+- lib/theme: Theme setup (Ocean Professional)
+- lib/models: Data models
+- lib/mock: Mock data
+- lib/providers: State management (cart, orders, reservations)
+- lib/pages: Menu, Reservations, Orders, Home Shell with Drawer
+- lib/widgets: Reusable widgets (cards, gradient header, cart badge)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Accessibility:
+- Clear contrast, large touch targets, semantic icons, and labels.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
